@@ -1,0 +1,47 @@
+.prdct{
+    width: 750px;
+    height: 450px;
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 26%;
+    position: relative;
+    
+}
+.aa{
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+}
+.ab{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: blue;
+    color: aliceblue;
+   
+}
+.ab :nth-child(1){
+    text-align: center;
+}
+.ab :nth-child(2){
+    text-align: center;
+    
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    padding-top: 50px;
+    padding-left: 20px;
+    
+}
+.ab :nth-child(4){
+    padding-top: 80px;
+}
+.ab :nth-child(2){
+    color: rgb(221, 138, 30);
+}

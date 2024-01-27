@@ -1,0 +1,24 @@
+.row{
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+.col{
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(231, 231, 249);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

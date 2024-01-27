@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(167, 104, 104);
+}
+.row{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.col{
+    background-color: blue;
+    border: 1px solid black;
+}
+.row :nth-child(1){
+    background-color: orangered;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

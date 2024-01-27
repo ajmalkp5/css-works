@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.abc{
+    width: 470px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.aa{
+    width: 18%;
+    height: 100%;
+    float: left;
+    margin-left: 8px;
+}
+.abc :nth-child(1){
+    background-color: aqua;
+}
+.abc :nth-child(2){
+    background-color: antiquewhite;
+}
+.abc :nth-child(3){
+    background-color: brown;
+}
+.abc :nth-child(4){
+    background-color: blue;
+}
+.abc :nth-child(5){
+    background-color: yellow;
+}
+.nxt{
+    width: 680px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.ccc{
+    width: 13%;
+    height: 100%;
+    float: left;
+    margin-left: 8px;
+}
+.nxt :nth-child(1){
+    background-color: orange;
+}
+.nxt :nth-child(2){
+    background-color: chartreuse;
+}
+.nxt :nth-child(3){
+    background-color: burlywood;
+}
+.nxt :nth-child(4){
+    background-color: darkmagenta;
+}
+.nxt :nth-child(5){
+    background-color: coral;
+}
+.nxt :nth-child(6){
+    background-color: darkgoldenrod;
+}
+.nxt :nth-child(7){
+    background-color: dimgrey;
+}
+.last{
+    width: 890px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.bb{
+    width: 10%;
+    height: 100%;
+    float: left;
+    margin-left: 8px;
+}
+.last :nth-child(1){
+    background-color: darkgreen;
+}
+.last :nth-child(2){
+    background-color: plum;
+}
+.last :nth-child(3){
+    background-color: tan;
+}
+.last :nth-child(4){
+    background-color: saddlebrown;
+}
+.last :nth-child(5){
+    background-color: midnightblue;
+}
+.last :nth-child(6){
+    background-color: rgb(32, 131, 131);
+}
+.last :nth-child(7){
+    background-color: hotpink;
+}
+.last :nth-child(8){
+    background-color: chartreuse;
+}
+.last :nth-child(9){
+    background-color: crimson;
+}

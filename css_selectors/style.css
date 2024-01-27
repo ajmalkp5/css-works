@@ -1,0 +1,22 @@
+body{
+    background-color: greenyellow;
+    color: black;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+#main_head{
+    color: blue;
+    text-decoration: none;
+}
+.txt-abc{
+    color: red;
+}
+.txt-mno{
+    color: fuchsia;
+}
+.text-underline{
+    text-decoration: underline;
+}

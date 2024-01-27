@@ -1,0 +1,96 @@
+.main_heading{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    max-width: 70%;
+    min-height: 650px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+body{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.card{
+    width: 40%;
+    min-height: 550px;
+    border: 1px solid blue;
+}
+.first{
+    background-color: red;
+}
+.scnd{
+    background-color: brown;
+}
+.badge{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+
+}
+.card-image{
+    width: 97.8%;
+    height: 350px;
+    background-color: chartreuse;
+    padding: 5px;
+}
+
+.acrd-title h4{
+    color: darkturquoise;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+} 
+.card-body p{
+    color: gray; 
+    text-align: center;
+    font-weight: 900;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+
+}  
+.aa{
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+    margin-right: 9px;
+    border-radius: 50%;
+} 
+.bb :nth-child(1){
+    background-color: violet;
+}
+.bb :nth-child(2){
+    background-color: yellow;
+}
+.bb :nth-child(3){
+    background-color: blue;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+.btn{
+    background-color: blue;
+    width: 250px;
+    color: white;
+    padding: 7px;
+}
+.fa-cart-shopping{
+    margin-right: 5px;
+}
